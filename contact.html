@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Forexza</title>
+<meta name="description" content="Request a quote from Forexza for sourcing components from China for your production in Mexico.">
+<meta name="theme-color" content="#0b0c0e">
+<meta property="og:title" content="Contact | Forexza">
+<meta property="og:description" content="Request a quote from Forexza for sourcing components from China for your production in Mexico.">
+<meta property="og:type" content="website">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a href="/" class="logo" aria-label="Forexza home"><svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#d42a3a"/><path d="M12 11h17v4.5H17v4h10v4.5H17V30h-5z" fill="#fff"/><path d="M24 26.5 31 30v-7z" fill="#8b9099"/></svg><span class="word">FOREXZA</span></a>
+    <ul class="nav-links" id="nav-links"><li><a href="/" class="" data-i18n="nav.home">Home</a></li><li><a href="/about" class="" data-i18n="nav.about">About</a></li><li><a href="/services" class="" data-i18n="nav.services">Services</a></li><li><a href="/contact" class="active" data-i18n="nav.contact">Contact</a></li></ul>
+    <div class="nav-actions">
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" data-lang="en" class="on">EN</button><button type="button" data-lang="es">ES</button>
+      </div>
+      <a href="/contact" class="btn btn-primary"><span data-i18n="nav.cta">Get a quote</span></a>
+      <button class="menu-btn" id="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+</header>
+<main>
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow" data-i18n="ct.eyebrow">Contact</span>
+    <h1 data-i18n-html="ct.h1">Let’s talk about <span class="accent">your supply chain</span>.</h1>
+    <p class="lead" data-i18n="ct.lead">Tell us a little about your company and what you’re looking to source. We’ll get back to you within one business day.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container contact-grid">
+    <div class="contact-info reveal">
+      <div class="contact-item"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></div><div><small data-i18n="ct.email">Email</small><a data-config="email" href="#">—</a></div></div>
+      <div class="contact-item"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div><div><small data-i18n="ct.phone">Phone</small><a data-config="phone" href="#">—</a></div></div>
+      <div class="contact-item"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><small data-i18n="ct.loc">Location</small><span data-config="location">—</span></div></div>
+    </div>
+    <form class="panel reveal" id="contact-form" novalidate>
+      <h3 data-i18n="ct.form.h">Request a quote</h3>
+      <div class="form-row">
+        <div class="field"><label for="f-name"><span data-i18n="ct.f.name">Contact name</span> <span class="req">*</span></label><input id="f-name" name="name" required autocomplete="name" data-i18n-ph="ct.ph.name" placeholder="Your full name"></div>
+        <div class="field"><label for="f-company"><span data-i18n="ct.f.company">Company name</span> <span class="req">*</span></label><input id="f-company" name="company" required autocomplete="organization" data-i18n-ph="ct.ph.company" placeholder="Company name"></div>
+      </div>
+      <div class="form-row">
+        <div class="field"><label for="f-email"><span data-i18n="ct.f.email">Email</span> <span class="req">*</span></label><input id="f-email" name="email" type="email" required autocomplete="email" placeholder="name@company.com"></div>
+        <div class="field"><label for="f-phone"><span data-i18n="ct.f.phone">Phone number</span> <span class="req">*</span></label><input id="f-phone" name="phone" type="tel" required autocomplete="tel" placeholder="+52 ..."></div>
+      </div>
+      <div class="field"><label for="f-sector"><span data-i18n="ct.f.sector">Sector</span> <span class="req">*</span></label>
+        <select id="f-sector" name="sector" required>
+          <option value="" disabled selected data-i18n="ct.f.choose">Select your sector</option>
+          <option value="Automotive" data-i18n="sec.0">Automotive</option><option value="Electronics" data-i18n="sec.1">Electronics</option><option value="Industrial machinery" data-i18n="sec.2">Industrial machinery</option><option value="Packaging" data-i18n="sec.3">Packaging</option><option value="Textiles &amp; apparel" data-i18n="sec.4">Textiles &amp; apparel</option><option value="Consumer goods" data-i18n="sec.5">Consumer goods</option><option value="Medical devices" data-i18n="sec.6">Medical devices</option><option value="Construction &amp; furniture" data-i18n="sec.7">Construction &amp; furniture</option><option value="Plastics &amp; metals" data-i18n="sec.8">Plastics &amp; metals</option><option value="Home appliances" data-i18n="sec.9">Home appliances</option>
+          <option value="Other" data-i18n="sec.other">Other</option>
+        </select>
+      </div>
+      <div class="field"><label for="f-msg" data-i18n="ct.f.msg">What are you looking to source? (optional)</label><textarea id="f-msg" name="message" data-i18n-ph="ct.ph.msg" placeholder="Components, quantities, timelines…"></textarea></div>
+      <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off">
+      <div class="form-status" id="form-status" role="status"></div>
+      <button type="submit" class="btn btn-primary"><span data-i18n="ct.send">Send request</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></button>
+      <p class="form-note" data-i18n="ct.note">We only use your details to respond to your enquiry.</p>
+    </form>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="/" class="logo"><svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#d42a3a"/><path d="M12 11h17v4.5H17v4h10v4.5H17V30h-5z" fill="#fff"/><path d="M24 26.5 31 30v-7z" fill="#8b9099"/></svg><span class="word">FOREXZA</span></a>
+        <p data-i18n="ft.blurb">Your sourcing partner between China and Mexico. From negotiation to delivery, one team manages it all.</p>
+      </div>
+      <div>
+        <h4 data-i18n="ft.company">Company</h4>
+        <ul>
+          <li><a href="/about" data-i18n="nav.about">About</a></li>
+          <li><a href="/services" data-i18n="nav.services">Services</a></li>
+          <li><a href="/contact" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="ft.reach">Get in touch</h4>
+        <ul>
+          <li><a data-config="email" href="#">—</a></li>
+          <li><a data-config="phone" href="#">—</a></li>
+          <li><span data-config="location" style="color:var(--muted);font-size:.95rem">—</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> Forexza. <span data-i18n="ft.rights">All rights reserved.</span></span>
+      <span><span data-i18n="ft.tag">China → Mexico sourcing &amp; supply</span></span>
+    </div>
+  </div>
+</footer>
+<script src="/assets/config.js"></script>
+<script src="/assets/i18n.js"></script>
+<script src="/assets/main.js"></script>
+</body>
+</html>
